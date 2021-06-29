@@ -1,0 +1,35 @@
+{
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "target": "es2017",
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "sourceMap": true,
+        "inlineSources": true,
+        "noImplicitAny": false,
+        "incremental": true,
+        "strict": true,
+        "lib": [
+            "ES2017",
+            "ES2018.Promise",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "strictNullChecks": false,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "types": [
+            "node",
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
